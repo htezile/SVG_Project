@@ -1,0 +1,14 @@
+<div>
+  <h1>Datos del tiempo</h1>
+  <div>
+    {{province}}
+    <br>
+    {{date}}
+  </div>
+  <div>
+      <mat-tab-group>
+        <mat-tab label="dia" *ngFor="let day of data.prediccion.dia; let i = index "> 
+        </mat-tab>
+      </mat-tab-group>
+  </div>
+</div>
