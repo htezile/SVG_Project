@@ -1,9 +1,27 @@
 .cloud {
-    animation: animationCloud 60s infinite alternate;
+    animation: animationSun 120s infinite alternate;
+}
+
+.start {
+    animation: cambiarColor 10s infinite alternate;
+}
+
+.start2 {
+    animation: cambiarColor2 10s infinite alternate;
 }
 @keyframes animationSun {
     from {
-        transform: translateX(500px);
+        transform: translateX(800px);
     }
     
 }
+
+@keyframes cambiarColor {   
+    from { fill: #e2dfd3;}   
+    to   { fill: rgb(13, 42, 59);}  
+ }
+
+ @keyframes cambiarColor2 {   
+    from { fill: rgb(13, 42, 59);}   
+    to   { fill: #e2dfd3;}  
+ }

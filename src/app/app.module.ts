@@ -14,6 +14,7 @@ import { MatTabsModule } from '@angular/material';
 import { WeatherDataService } from './weather-data.service'  
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
+import { BodyDataComponent } from './body-data/body-data.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FooterComponent } from './footer/footer.component';
     SvgTitleComponent,
     WeatherDataComponent,
     FooterComponent,
+    BodyDataComponent,
   ],
   imports: [
     BrowserModule,
