@@ -1,0 +1,23 @@
+.sun {
+    animation: animationSun 20s;
+    animation-fill-mode: forwards;
+}
+.cloud {
+    animation: animationCloud 15s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationSun {
+    from {
+        transform: translateX(50px);
+    }
+    to {
+        transform: translateX(-50px);
+    }
+}
+
+@keyframes animationCloud {
+    from {
+        transform: translateX(1600px);
+    }
+}

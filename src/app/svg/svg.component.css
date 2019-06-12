@@ -1,0 +1,9 @@
+.cloud {
+    animation: animationCloud 60s infinite alternate;
+}
+@keyframes animationSun {
+    from {
+        transform: translateX(500px);
+    }
+    
+}

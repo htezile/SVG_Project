@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -13,6 +13,8 @@ import { WeatherDataComponent } from './weather-data/weather-data.component';
 import { MatTabsModule } from '@angular/material';
 import { WeatherDataService } from './weather-data.service'  
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
     SvgComponent,
     SvgTitleComponent,
     WeatherDataComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
